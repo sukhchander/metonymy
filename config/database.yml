@@ -1,0 +1,9 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: true
+  database: image_service_development
+  pool: 5
+  username: root
+  password:
+  socket: /opt/local/var/run/mysql5/mysqld.sock
