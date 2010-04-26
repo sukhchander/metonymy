@@ -1,6 +1,4 @@
-an image {up,down}load webservice written using the sidetrack framework: 
-http://github.com/sukhchander/sidetrack. this little webservice caches GET
-requests locally, stores uploads (originals + thumbnails) in s3 via POST, records metadata in mysql, and produces thumbnails using paperclip in the background using delayed job 
+an image {up,down}load webservice built on top of the sidetrack framework: http://bit.ly/sidetrack_github. this little webservice caches GET requests locally, stores uploads (originals + thumbnails) in s3 via POST, records metadata in mysql, and produces thumbnails using paperclip in the background using delayed job
 
 check out: http://bit.ly/upORdown for a wee bit more info
 
