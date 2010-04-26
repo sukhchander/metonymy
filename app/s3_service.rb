@@ -19,7 +19,7 @@ class S3Service
         return true
         return if req.authorization.eql?SHARED_SECRET
 
-        cookie = req.cookies['_20x200_session']
+        cookie = req.cookies['_upORdown_session']
         unless cookie.nil?
             session = cookie.strip
             if session.nil?

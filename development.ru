@@ -35,7 +35,7 @@ require 'memcache'
 memcache_options = {
 	:compression => false,
 	:debug => false,
-	:namespace => "20x200",
+	:namespace => "upORdown",
 	:readonly => false,
 	:urlencode => false
 }

@@ -1,9 +1,9 @@
 class CreateImages < ActiveRecord::Migration
   def self.up
     create_table :images do |t|
-      t.string :image_file_name
-      t.integer :image_file_size
-      t.string :image_content_type
+      t.string :file_name
+      t.integer :file_size
+      t.string :content_type
       t.timestamps
     end
   end
